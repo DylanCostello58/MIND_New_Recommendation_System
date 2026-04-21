@@ -77,3 +77,12 @@ We chose 4 evaluation metrics to track across our 3 runs.
   - Evaluates the quality of the top-K ranked articles by giving more credit to relevant articles appearing earlier. We used both K = 5 and K = 10 in this case.
 
 The results and loss curve graphs can be found below. 
+
+| Metric | Run 1 | Run 2 | Run 3 |
+|-----------|----------|---------|--------------|
+| AUC | 1e-4 | 1e-3 | 1e-4 |
+| MRR | 64 | 64 | 64 |
+| nDCG@5 | 4 | 4 | 4 |
+| nDCG@10 | 16 | 16 | 16 |
+
+![Run1 Loss](https://raw.githubusercontent.com/DylanCostello58/MIND_New_Recommendation_System/main/results/loss_curve_1.png)
