@@ -80,10 +80,10 @@ The results and loss curve graphs can be found below.
 
 | Metric | Run 1 | Run 2 | Run 3 |
 |-----------|----------|---------|--------------|
-| AUC | 1e-4 | 1e-3 | 1e-4 |
-| MRR | 64 | 64 | 64 |
-| nDCG@5 | 4 | 4 | 4 |
-| nDCG@10 | 16 | 16 | 16 |
+| AUC | n/a | 0.7352 | n/a |
+| MRR | n/a | 0.6400 | n/a |
+| nDCG@5 | n/a | 0.7303 | n/a |
+| nDCG@10 | n/a | 0.7303 | n/a |
 
 ![Run2 Loss](https://raw.githubusercontent.com/DylanCostello58/MIND_New_Recommendation_System/main/results/loss_curve.png)
 
@@ -93,3 +93,6 @@ This is the loss curve for run 1. We can see a decline in the loss as the epochs
 
 This is the loss curve for run 2. We can see a decline in the loss as the epochs continue, which is expected and desired. It's minimum loss is 1.2528.
 
+Note: This is for the professor of my class so if you somehow found this just call me a bad time manager and move on. This assignment was due at midnight and it's currently 8:32PM and the computer lab is closed. I only had time to get through 2 of the 3 hyperparameter tests and my evaluation code only evaluated the latest run, thus the n/a's that populate my results graph. With my side tangent about not alloting my time well, let's get back to it.
+
+Overall these results show a decent model. For a model built on a smaller version of the original dataset and only trained for 5 epochs, these numbers are actually pretty good. I believe, if there were more epochs and we used the full dataset, that this model would be relatively strong. Likely not as strong as industrial strength models, but for a cheap, undergraduate level model, this seems very good.
