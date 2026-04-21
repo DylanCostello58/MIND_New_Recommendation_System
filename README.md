@@ -85,4 +85,11 @@ The results and loss curve graphs can be found below.
 | nDCG@5 | 4 | 4 | 4 |
 | nDCG@10 | 16 | 16 | 16 |
 
-![Run1 Loss](https://raw.githubusercontent.com/DylanCostello58/MIND_New_Recommendation_System/main/results/loss_curve_1.png)
+
+
+This is the loss curve for run 1. We can see a decline in the loss as the epochs continue, which is expected and desired. It's minimum loss is 1.2893.
+
+![Run2 Loss](https://raw.githubusercontent.com/DylanCostello58/MIND_New_Recommendation_System/main/results/loss_curve_1.png)
+
+This is the loss curve for run 2. We can see a decline in the loss as the epochs continue, which is expected and desired. It's minimum loss is 1.2528.
+
